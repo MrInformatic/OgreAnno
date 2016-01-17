@@ -35,7 +35,15 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/main.o
+	${OBJECTDIR}/Source/Map/Map.o \
+	${OBJECTDIR}/Source/Map/Object/Object.o \
+	${OBJECTDIR}/Source/Map/Object/Road.o \
+	${OBJECTDIR}/Source/Map/Object/Tree.o \
+	${OBJECTDIR}/Source/Map/ObjectManager/ObjectManager.o \
+	${OBJECTDIR}/Source/Map/Tile/LandTile.o \
+	${OBJECTDIR}/Source/Map/Tile/WaterTile.o \
+	${OBJECTDIR}/Source/Map/Tiles/Tile.o \
+	${OBJECTDIR}/Source/main.o
 
 
 # C Compiler Flags
@@ -62,10 +70,50 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/ogreanno: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/ogreanno ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/main.o: main.cpp 
-	${MKDIR} -p ${OBJECTDIR}
+${OBJECTDIR}/Source/Map/Map.o: Source/Map/Map.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Source/Map
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.cpp
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Source/Map/Map.o Source/Map/Map.cpp
+
+${OBJECTDIR}/Source/Map/Object/Object.o: Source/Map/Object/Object.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Source/Map/Object
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Source/Map/Object/Object.o Source/Map/Object/Object.cpp
+
+${OBJECTDIR}/Source/Map/Object/Road.o: Source/Map/Object/Road.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Source/Map/Object
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Source/Map/Object/Road.o Source/Map/Object/Road.cpp
+
+${OBJECTDIR}/Source/Map/Object/Tree.o: Source/Map/Object/Tree.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Source/Map/Object
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Source/Map/Object/Tree.o Source/Map/Object/Tree.cpp
+
+${OBJECTDIR}/Source/Map/ObjectManager/ObjectManager.o: Source/Map/ObjectManager/ObjectManager.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Source/Map/ObjectManager
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Source/Map/ObjectManager/ObjectManager.o Source/Map/ObjectManager/ObjectManager.cpp
+
+${OBJECTDIR}/Source/Map/Tile/LandTile.o: Source/Map/Tile/LandTile.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Source/Map/Tile
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Source/Map/Tile/LandTile.o Source/Map/Tile/LandTile.cpp
+
+${OBJECTDIR}/Source/Map/Tile/WaterTile.o: Source/Map/Tile/WaterTile.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Source/Map/Tile
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Source/Map/Tile/WaterTile.o Source/Map/Tile/WaterTile.cpp
+
+${OBJECTDIR}/Source/Map/Tiles/Tile.o: Source/Map/Tiles/Tile.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Source/Map/Tiles
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Source/Map/Tiles/Tile.o Source/Map/Tiles/Tile.cpp
+
+${OBJECTDIR}/Source/main.o: Source/main.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Source
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Source/main.o Source/main.cpp
 
 # Subprojects
 .build-subprojects:

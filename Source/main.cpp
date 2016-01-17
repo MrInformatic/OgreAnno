@@ -66,10 +66,6 @@ void Game::setup(){
     root->addFrameListener(this);
 
     root->startRendering();
-
-    while(running){
-        sleep(1);
-    }
 }
 
 void Game::dispose(){
