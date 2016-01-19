@@ -9,6 +9,7 @@
 #include "OGRE/OgreException.h"
 #include "OGRE/OgreRoot.h"
 #include "OIS/OIS.h"
+#include "Map/Map.h"
 #ifndef MAIN_H
 #define MAIN_H
 

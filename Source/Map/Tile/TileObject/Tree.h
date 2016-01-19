@@ -2,13 +2,15 @@
  * File:   Tree.h
  * Author: philipp
  *
- * Created on 17. Januar 2016, 18:11
+ * Created on 19. Januar 2016, 16:24
  */
+
+#include "TileObject.h"
 
 #ifndef TREE_H
 #define	TREE_H
 
-class Tree {
+class Tree : public TileObject{
 public:
     Tree();
     Tree(const Tree& orig);

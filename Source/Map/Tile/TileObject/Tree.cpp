@@ -2,7 +2,7 @@
  * File:   Tree.cpp
  * Author: philipp
  * 
- * Created on 17. Januar 2016, 18:11
+ * Created on 19. Januar 2016, 16:24
  */
 
 #include "Tree.h"

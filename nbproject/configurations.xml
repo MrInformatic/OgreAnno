@@ -4,13 +4,19 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>Source/Map/Tile/TileObject/Building.h</itemPath>
+      <itemPath>Source/Map/MapObject/Building.h</itemPath>
+      <itemPath>Source/Map/Tile/TileObject/BuildingTileObject.h</itemPath>
       <itemPath>Source/Map/Tile/LandTile.h</itemPath>
       <itemPath>Source/Map/Map.h</itemPath>
+      <itemPath>Source/Map/MapObject/MapObject.h</itemPath>
       <itemPath>Source/Map/Object/Object.h</itemPath>
       <itemPath>Source/Map/ObjectManager/ObjectManager.h</itemPath>
       <itemPath>Source/Map/Object/Road.h</itemPath>
       <itemPath>Source/Map/Tiles/Tile.h</itemPath>
+      <itemPath>Source/Map/Tile/TileObject/TileObject.h</itemPath>
       <itemPath>Source/Map/Object/Tree.h</itemPath>
+      <itemPath>Source/Map/Tile/TileObject/Tree.h</itemPath>
       <itemPath>Source/Map/Tile/WaterTile.h</itemPath>
       <itemPath>Source/main.h</itemPath>
     </logicalFolder>
@@ -21,13 +27,19 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>Source/Map/Tile/TileObject/Building.cpp</itemPath>
+      <itemPath>Source/Map/MapObject/Building.cpp</itemPath>
+      <itemPath>Source/Map/Tile/TileObject/BuildingTileObject.cpp</itemPath>
       <itemPath>Source/Map/Tile/LandTile.cpp</itemPath>
       <itemPath>Source/Map/Map.cpp</itemPath>
+      <itemPath>Source/Map/MapObject/MapObject.cpp</itemPath>
       <itemPath>Source/Map/Object/Object.cpp</itemPath>
       <itemPath>Source/Map/ObjectManager/ObjectManager.cpp</itemPath>
       <itemPath>Source/Map/Object/Road.cpp</itemPath>
       <itemPath>Source/Map/Tiles/Tile.cpp</itemPath>
+      <itemPath>Source/Map/Tile/TileObject/TileObject.cpp</itemPath>
       <itemPath>Source/Map/Object/Tree.cpp</itemPath>
+      <itemPath>Source/Map/Tile/TileObject/Tree.cpp</itemPath>
       <itemPath>Source/Map/Tile/WaterTile.cpp</itemPath>
       <itemPath>Source/main.cpp</itemPath>
     </logicalFolder>
@@ -72,6 +84,14 @@
       </item>
       <item path="Source/Map/Map.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Source/Map/MapObject/Building.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Source/Map/MapObject/Building.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Map/MapObject/MapObject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Source/Map/MapObject/MapObject.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Source/Map/Object/Object.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Source/Map/Object/Object.h" ex="false" tool="3" flavor2="0">
@@ -97,6 +117,43 @@
       <item path="Source/Map/Tile/LandTile.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Source/Map/Tile/LandTile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Map/Tile/TileObject/Building.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Source/Map/Tile/TileObject/Building.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Map/Tile/TileObject/BuildingTileObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Source/Map/Tile/TileObject/BuildingTileObject.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Map/Tile/TileObject/TileObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Source/Map/Tile/TileObject/TileObject.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Map/Tile/TileObject/Tree.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Source/Map/Tile/TileObject/Tree.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Source/Map/Tile/WaterTile.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -135,6 +192,14 @@
       </item>
       <item path="Source/Map/Map.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Source/Map/MapObject/Building.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Source/Map/MapObject/Building.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Map/MapObject/MapObject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Source/Map/MapObject/MapObject.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Source/Map/Object/Object.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Source/Map/Object/Object.h" ex="false" tool="3" flavor2="0">
@@ -160,6 +225,43 @@
       <item path="Source/Map/Tile/LandTile.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Source/Map/Tile/LandTile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Map/Tile/TileObject/Building.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Source/Map/Tile/TileObject/Building.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Map/Tile/TileObject/BuildingTileObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Source/Map/Tile/TileObject/BuildingTileObject.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Map/Tile/TileObject/TileObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Source/Map/Tile/TileObject/TileObject.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Map/Tile/TileObject/Tree.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Source/Map/Tile/TileObject/Tree.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Source/Map/Tile/WaterTile.cpp" ex="false" tool="1" flavor2="0">
       </item>
